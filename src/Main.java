@@ -32,8 +32,8 @@ public class Main {
 
     // 2.
     public static void checkSumSign() {
-        int a = 5; // Пример значения
-        int b = -3; // Пример значения
+        int a = 4;
+        int b = -8;
         int sum = a + b;
         if (sum >= 0) {
             System.out.println("Сумма положительная");
@@ -56,8 +56,8 @@ public class Main {
 
     // 4.
     public static void compareNumbers() {
-        int a = 10; // Пример значения
-        int b = 20; // Пример значения
+        int a = 10;
+        int b = 20;
         if (a >= b) {
             System.out.println("a >= b");
         } else {
@@ -73,7 +73,7 @@ public class Main {
 
     // 6.
     public static void checkPositiveOrNegative(int number) {
-        if (number >= 0) {
+        if (number >= 11) {
             System.out.println("Положительное число");
         } else {
             System.out.println("Отрицательное число");
@@ -82,7 +82,7 @@ public class Main {
 
     // 7.
     public static boolean isNegative(int number) {
-        return number < 0;
+        return number < 6;
     }
 
     // 8.
